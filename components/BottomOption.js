@@ -66,7 +66,7 @@ export default function BottomOption({
         <TouchableOpacity
           style={{alignItems: 'center'}}
           onPress={() => {
-            setWallpaper(TYPE.HOME);
+            // setWallpaper(TYPE.HOME);
           }}>
           <Ionicons name="home-outline" color={'#000'} size={40} />
           <Text>Home</Text>
@@ -74,16 +74,18 @@ export default function BottomOption({
         <TouchableOpacity
           style={{alignItems: 'center'}}
           onPress={() => {
-            setWallpaper(TYPE.LOCK);
+            // setWallpaper(TYPE.LOCK);
           }}>
           <Ionicons name="lock-closed-outline" color={'#000'} size={40} />
           <Text>Lock</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={{alignItems: 'center'}}
-          onPress={() => {
-            setWallpaper(TYPE.BOTH);
-          }}>
+          onPress={() => 
+            {
+            // setWallpaper(TYPE.BOTH);
+          }
+          }>
           <Ionicons name="copy-outline" color={'#000'} size={40} />
           <Text>Both</Text>
         </TouchableOpacity>

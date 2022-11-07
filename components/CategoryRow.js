@@ -16,7 +16,7 @@ import CategoryCard from './CategoryCard'
             showsHorizontalScrollIndicator={false} >
                 <CategoryCard
                 title = "Flowers"
-                imgUrl = "https://images.pexels.com/photos/14036566/pexels-photo-14036566.jpeg?cs=srgb&dl=pexels-da-capture-14036566.jpg&fm=jpg"
+                imgUrl = "https://images.pexels.com/photos/14036566/pexels-photo-14036566.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 />
                  <CategoryCard
                 title = "Nature"
@@ -36,15 +36,15 @@ import CategoryCard from './CategoryCard'
                 />
                  <CategoryCard
                 title = "Games"
-                imgUrl = "https://images.pexels.com/photos/5769387/pexels-photo-5769387.jpeg?cs=srgb&dl=pexels-julia-volk-5769387.jpg&fm=jpg"
+                imgUrl = "https://images.pexels.com/photos/5769387/pexels-photo-5769387.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 />
                  <CategoryCard
                 title = "Music"
-                imgUrl = "https://images.pexels.com/photos/10182119/pexels-photo-10182119.jpeg?cs=srgb&dl=pexels-julia-volk-5769387.jpg&fm=jpg"
+                imgUrl = "https://images.pexels.com/photos/10182119/pexels-photo-10182119.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 />
                  <CategoryCard
                 title = "Games"
-                imgUrl = "https://images.pexels.com/photos/13905462/pexels-photo-13905462.jpeg?cs=srgb&dl=pexels-julia-volk-5769387.jpg&fm=jpg"
+                imgUrl = "https://images.pexels.com/photos/13905462/pexels-photo-13905462.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 />
                  <CategoryCard
                 title = "Sports"
@@ -64,7 +64,7 @@ import CategoryCard from './CategoryCard'
                 />
                 <CategoryCard
                 title="Abstract"
-                imgUrl="https://images.pexels.com/photos/2110951/pexels-photo-2110951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                imgUrl="https://images.pexels.com/photos/2110951/pexels-photo-2110951.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 />
             </ScrollView>
 

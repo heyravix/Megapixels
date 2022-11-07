@@ -118,7 +118,7 @@ return <View style={{height, width, backgroundColor: '#fff',flexDirection:'colum
     {/* Home Categories */}
 
     <ScrollView 
-    contentContainerStyle={{paddingBottom:100}}>
+    contentContainerStyle={{paddingBottom:30}}>
   <CategoryRow 
   title= 'Best of the Month'/>
 
@@ -128,51 +128,6 @@ return <View style={{height, width, backgroundColor: '#fff',flexDirection:'colum
   title= 'Categories'/>
   
 </ScrollView>
-
-  {/* <View  style={{marginTop:10}}>
-  <View>
-    <Text style={{fontSize:18 , marginStart:10, padding:10 , fontWeight:'bold'}}>Categories</Text>
-    </View>
-          <View style={styles.categoriesContainer}>
-              <FlatList   
-              horizontal
-              showsHorizontalScrollIndicator={false}
-                  data = {categories}
-                    renderItem={oneImage}
-                    />
-          </View>
-          <View>
-    <Text style={{fontSize:18 , marginStart:10, padding:10 , fontWeight:'bold' }}>Photos by Color</Text>
-    </View>
-          <View style={styles.colorContainer}>
-              <FlatList   
-              horizontal
-              showsHorizontalScrollIndicator={false}
-                  data = {colorsCategory}
-                    renderItem={oneColor}
-                    />
-          </View>
-  </View>
-  <View>
-    <Text style={{fontSize:18 , marginStart:10, padding:10 , fontWeight:'bold' }}>Discover Photos</Text>
-    </View>
-    <View>
-    <FlatList   
-    
-    data = {images}
-    keyExtractor = { item => item.id.toString()}
-    numColumns={2}
-    renderItem={({item}) =>{
-      return <View style={{width:'50%',margin:1}}>
-      <Image
-      source = {{uri: item.src.portrait}}
-      style = {{height: 300,width:300}}
-      />
-      </View>
-    }}
-      
-      />
-    </View> */}
   </View>
 
 }

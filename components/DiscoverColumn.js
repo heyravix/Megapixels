@@ -1,7 +1,6 @@
 import {View, Text, ScrollView,TouchableOpacity,StyleSheet,Image,Dimensions,ImageBackground } from 'react-native'
 import React from 'react' 
-import DiscoverCard from './DiscoverCard'
-import { useNavigation } from '@react-navigation/native';
+ import { useNavigation } from '@react-navigation/native';
 
  const WIDTH = Dimensions.get('window').width
 
@@ -15,7 +14,7 @@ const navigation = useNavigation();
           </View>
 
           <View
-          style={{flexDirection:'column', display:'flex', flexWrap:'wrap'}}>
+          style={{flexDirection:'column'}}>
 
             <View style={styles.imageRow}>
 

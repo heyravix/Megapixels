@@ -119,7 +119,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
         left: 0,
         right: 0,
         height: 100,
-        justifyContent: 'space-around',
+         justifyContent: 'space-around',
         alignItems: 'center',
         flexDirection: 'row',
       },
